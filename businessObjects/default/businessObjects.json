@@ -1,0 +1,7 @@
+{
+    "type": "default",
+    "security": {
+        "anonAccessForDataDescribe": true,
+        "basicAuthForData": true
+    }
+}

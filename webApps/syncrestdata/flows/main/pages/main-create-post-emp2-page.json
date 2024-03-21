@@ -1,0 +1,82 @@
+{
+  "title": "Create postEmp2",
+  "description": "Creates new postEmp2",
+  "variables": {
+    "createPostEmp2ChainInProgress": {
+      "type": "boolean",
+      "defaultValue": false
+    },
+    "postEmp2": {
+      "type": "page:postEmp2Request"
+    }
+  },
+  "metadata": {},
+  "types": {
+    "@decorators.postEmp2Request": {
+      "endpoint": "postEmp2",
+      "service": "ordsAdmin",
+      "path": "request"
+    },
+    "genericServiceErrorResponseType": {
+      "body": "any",
+      "status": "number"
+    },
+    "postEmp2Request": {
+      "id": "number",
+      "job": "string",
+      "name": "string",
+      "salary": "string"
+    }
+  },
+  "eventListeners": {
+    "backButtonClicked": {
+      "chains": [
+        {
+          "chainId": "goBackChain"
+        }
+      ]
+    },
+    "saveButtonClicked": {
+      "chains": [
+        {
+          "chainId": "createPostEmp2Chain"
+        }
+      ]
+    },
+    "toggleDrawer": {
+      "chains": [
+        {
+          "chainId": "application:toggleDrawerHandler"
+        }
+      ]
+    }
+
+  },
+  "imports": {
+    "components": {
+      "oj-button": {
+        "path": "ojs/ojbutton"
+      },
+      "oj-form-layout": {
+        "path": "ojs/ojformlayout"
+      },
+      "oj-input-number": {
+        "path": "ojs/ojinputnumber"
+      },
+      "oj-input-text": {
+        "path": "ojs/ojinputtext"
+      },
+      "oj-toolbar": {
+        "path": "ojs/ojtoolbar"
+      },
+      "oj-validation-group": {
+        "path": "ojs/ojvalidationgroup"
+      }
+    }
+  },
+  "security": {
+    "access": {
+      "requiresAuthentication": false
+    }
+  }
+}

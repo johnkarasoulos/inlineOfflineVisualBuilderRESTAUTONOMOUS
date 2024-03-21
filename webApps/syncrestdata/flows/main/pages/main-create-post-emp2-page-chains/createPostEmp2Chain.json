@@ -1,0 +1,125 @@
+{
+  "root": "markCreateStarted",
+  "variables": {
+    "saveFailureResult": {
+      "type": "page:genericServiceErrorResponseType"
+    },
+    "errorMessage": {
+      "type": "string"
+    }
+  },
+  "actions": {
+    "markCreateStarted": {
+      "module": "vb/action/builtin/assignVariablesAction",
+      "parameters": {
+        "$page.variables.createPostEmp2ChainInProgress": {
+          "source": true
+        }
+      },
+      "outcomes": {
+        "success": "validatePostEmp2"
+      },
+      "description": "Sets the progress variable to true",
+      "label": "Mark Create in progress"
+    },
+    "validatePostEmp2": {
+      "module": "vb/action/builtin/callChainAction",
+      "parameters": {
+        "id": "flow:validateFormChain",
+        "params": {
+          "validationGroupId": "validation-group"
+        }
+      },
+      "outcomes": {
+        "success": "isFormValid"
+      },
+      "label": "Validate",
+      "description": "Validates postEmp2 form"
+    },
+    "isFormValid": {
+      "module": "vb/action/builtin/ifAction",
+      "parameters": {
+        "condition": "[[ $chain.results.validatePostEmp2 === true ]]"
+      },
+      "outcomes": {
+        "true": "createPostEmp2",
+        "false": "markCreateEnded"
+      },
+      "label": "Is Form valid",
+      "description": "Tests if form passed validation"
+    },
+    "createPostEmp2": {
+      "module": "vb/action/builtin/restAction",
+      "parameters": {
+        "endpoint": "ordsAdmin/postEmp2",
+        "body": "[[ $page.variables.postEmp2 ]]"
+      },
+      "outcomes": {
+        "success": "fireSuccessNotification",
+        "failure": "assignFailureResult"
+      }
+    },
+    "fireSuccessNotification": {
+      "module": "vb/action/builtin/fireNotificationEventAction",
+      "parameters": {
+        "summary": "postEmp2 saved",
+        "message": "postEmp2 record successfully created",
+        "type": "confirmation",
+        "displayMode": "transient"
+      },
+      "outcomes": {
+        "success": "navigateBack"
+      }
+    },
+    "navigateBack": {
+      "module": "vb/action/builtin/navigateBackAction",
+      "outcomes": {
+        "success": "markCreateEnded"
+      }
+    },
+    "assignFailureResult": {
+      "module": "vb/action/builtin/assignVariablesAction",
+      "parameters": {
+        "$variables.saveFailureResult": {
+          "source": "[[ $chain.results.createPostEmp2 ]]"
+        }
+      },
+      "outcomes": {
+        "success": "handleDefaultErrorMessage"
+      }
+    },
+    "handleDefaultErrorMessage": {
+      "module": "vb/action/builtin/assignVariablesAction",
+      "outcomes": {
+        "success": "fireErrorNotification"
+      },
+      "parameters": {
+        "$variables.errorMessage": {
+          "source": "[[ 'Could not create new postEmp2: status ' + $variables.saveFailureResult.status ]]"
+        }
+      }
+    },
+    "fireErrorNotification": {
+      "module": "vb/action/builtin/fireNotificationEventAction",
+      "parameters": {
+        "summary": "Save failed",
+        "message": "[[ $variables.errorMessage ]]",
+        "type": "error",
+        "displayMode": "persist"
+      },
+      "outcomes": {
+        "success": "markCreateEnded"
+      }
+    },
+    "markCreateEnded": {
+      "module": "vb/action/builtin/assignVariablesAction",
+      "parameters": {
+        "$page.variables.createPostEmp2ChainInProgress": {
+          "source": false
+        }
+      },
+      "description": "Sets the progress variable to false",
+      "label": "Mark Create done"
+    }
+  }
+}

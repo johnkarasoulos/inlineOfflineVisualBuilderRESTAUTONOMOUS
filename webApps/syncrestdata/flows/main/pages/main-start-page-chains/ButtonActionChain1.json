@@ -1,0 +1,24 @@
+{
+  "description": "",
+  "root": "callFunctionDataSynch",
+  "actions": {
+    "callFunctionDataSynch": {
+      "module": "vb/action/builtin/callModuleFunctionAction",
+      "parameters": {
+        "module": "[[ $application.functions ]]",
+        "functionName": "dataSynch"
+      },
+      "outcomes": {
+        "success": "fireDataProviderEventGetEmpListSDP"
+      }
+    },
+    "fireDataProviderEventGetEmpListSDP": {
+      "module": "vb/action/builtin/fireDataProviderEventAction",
+      "parameters": {
+        "refresh": null,
+        "target": "[[ $page.variables.getEmpListSDP ]]"
+      }
+    }
+  },
+  "variables": {}
+}

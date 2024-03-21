@@ -1,0 +1,82 @@
+{
+  "title": "main",
+  "description": "",
+  "variables": {
+    "getEmpListSDP": {
+      "type": "vb/ServiceDataProvider",
+      "defaultValue": {
+        "endpoint": "ordsAdmin/getEmp",
+        "keyAttributes": "id",
+        "itemsPath": "items",
+        "responseType": "getEmpResponse"
+      }
+    }
+  },
+  "metadata": {},
+  "types": {
+    "@decorators.getEmpResponse": {
+      "endpoint": "getEmp",
+      "service": "ordsAdmin",
+      "path": "response"
+    },
+    "getEmpResponse": {
+      "items": [
+        {
+          "id": "number",
+          "job": "string",
+          "name": "string",
+          "salary": "string"
+        }
+      ]
+    }
+  },
+  "eventListeners": {
+    "buttonAction": {
+      "chains": [
+        {
+          "chainId": "ButtonActionChain"
+        }
+      ]
+    },
+    "buttonAction2": {
+      "chains": [
+        {
+          "chainId": "ButtonActionChain1"
+        }
+      ]
+    },
+    "createPostEmp2ButtonClicked": {
+      "chains": [
+        {
+          "chainId": "navigateToCreatePostEmp2Chain"
+        }
+      ]
+    },
+    "toggleDrawer": {
+      "chains": [
+        {
+          "chainId": "application:toggleDrawerHandler"
+        }
+      ]
+    }
+
+  },
+  "imports": {
+    "components": {
+      "oj-button": {
+        "path": "ojs/ojbutton"
+      },
+      "oj-table": {
+        "path": "ojs/ojtable"
+      },
+      "oj-toolbar": {
+        "path": "ojs/ojtoolbar"
+      }
+    }
+  },
+  "security": {
+    "access": {
+      "requiresAuthentication": false
+    }
+  }
+}

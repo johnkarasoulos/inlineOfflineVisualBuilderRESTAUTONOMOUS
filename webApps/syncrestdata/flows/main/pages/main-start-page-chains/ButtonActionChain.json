@@ -1,0 +1,14 @@
+{
+  "description": "",
+  "root": "fireDataProviderEventGetEmpListSDP",
+  "actions": {
+    "fireDataProviderEventGetEmpListSDP": {
+      "module": "vb/action/builtin/fireDataProviderEventAction",
+      "parameters": {
+        "refresh": null,
+        "target": "[[ $page.variables.getEmpListSDP ]]"
+      }
+    }
+  },
+  "variables": {}
+}

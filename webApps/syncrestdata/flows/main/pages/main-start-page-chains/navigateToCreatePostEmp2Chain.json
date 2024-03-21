@@ -1,0 +1,12 @@
+{
+  "root": "navigateToCreate",
+  "actions": {
+    "navigateToCreate": {
+      "module": "vb/action/builtin/navigateAction",
+      "parameters": {
+        "page": "main-create-post-emp2",
+        "params": {}
+      }
+    }
+  }
+}

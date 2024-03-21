@@ -1,0 +1,122 @@
+{
+    "items": [
+        {
+            "name": "ZSDZ",
+            "salary": "234234",
+            "job": "ZDFZE",
+            "id": 4,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7DAAA"
+                }
+            ]
+        },
+        {
+            "name": "FZEEZRz",
+            "salary": "242344",
+            "job": "ZERZERR",
+            "id": 6,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7EAAA"
+                }
+            ]
+        },
+        {
+            "name": "wwwww",
+            "salary": "000000",
+            "job": "SSSSS",
+            "id": 10,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7EAAB"
+                }
+            ]
+        },
+        {
+            "name": "zerzer",
+            "salary": "12323123",
+            "job": "azeazeaz",
+            "id": 7,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7FAAA"
+                }
+            ]
+        },
+        {
+            "name": "2Dave",
+            "salary": "1500",
+            "job": "developer7",
+            "id": 11,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7FAAB"
+                }
+            ]
+        },
+        {
+            "name": "sdqsffsd",
+            "salary": "1111",
+            "job": "sdfds",
+            "id": 2222,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAA"
+                }
+            ]
+        },
+        {
+            "name": null,
+            "salary": null,
+            "job": null,
+            "id": null,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAB"
+                }
+            ]
+        },
+        {
+            "name": "LLLLLL",
+            "salary": "111111",
+            "job": "UUUUU",
+            "id": 11,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAE"
+                }
+            ]
+        }
+    ],
+    "hasMore": false,
+    "limit": 25,
+    "offset": 0,
+    "count": 8,
+    "links": [
+        {
+            "rel": "self",
+            "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/"
+        },
+        {
+            "rel": "edit",
+            "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/"
+        },
+        {
+            "rel": "describedby",
+            "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/metadata-catalog/emp/"
+        },
+        {
+            "rel": "first",
+            "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/"
+        }
+    ]
+}
