@@ -1,5 +1,5 @@
 {
-    "vbcs.dt.version": "20231205-24.04.1",
+    "vbcs.dt.version": "20231205-24.04.0",
     "dependencies": {
         "upgrade": "micro",
         "paths": {
@@ -16,5 +16,7 @@
             "RemoveCSPMetatagMigrator",
             "MetadataRulesMigrator"
         ]
-    }
+    },
+    "rootURL": "OnlineOfflineApplicationRESTSync",
+    "version": "0.1"
 }

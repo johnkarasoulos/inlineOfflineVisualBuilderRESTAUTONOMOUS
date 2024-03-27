@@ -57,7 +57,7 @@ define([
        * Cache requests where the URL matches the scope for which you want data cached.
        */
       if (request.url.match(
-          'https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/'
+          'https://xxxxxxxxxx.adb.xxxxxxxx.oraclecloudapps.com/ords/admin/emp/'
         )) {
 
         return this._responseProxy.processRequest(request);
