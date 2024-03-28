@@ -8,7 +8,7 @@
             "links": [
                 {
                     "rel": "self",
-                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7DAAA"
+                    "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7DAAA"
                 }
             ]
         },
@@ -20,7 +20,7 @@
             "links": [
                 {
                     "rel": "self",
-                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7EAAA"
+                    "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7EAAA"
                 }
             ]
         },
@@ -32,7 +32,7 @@
             "links": [
                 {
                     "rel": "self",
-                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7EAAB"
+                    "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7EAAB"
                 }
             ]
         },
@@ -44,7 +44,7 @@
             "links": [
                 {
                     "rel": "self",
-                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7FAAA"
+                    "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7FAAA"
                 }
             ]
         },
@@ -56,7 +56,7 @@
             "links": [
                 {
                     "rel": "self",
-                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7FAAB"
+                    "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7FAAB"
                 }
             ]
         },
@@ -68,7 +68,7 @@
             "links": [
                 {
                     "rel": "self",
-                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAA"
+                    "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAA"
                 }
             ]
         },
@@ -80,7 +80,7 @@
             "links": [
                 {
                     "rel": "self",
-                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAB"
+                    "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAB"
                 }
             ]
         },
@@ -92,7 +92,7 @@
             "links": [
                 {
                     "rel": "self",
-                    "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAE"
+                    "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAE"
                 }
             ]
         }
@@ -104,19 +104,19 @@
     "links": [
         {
             "rel": "self",
-            "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/"
+            "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/"
         },
         {
             "rel": "edit",
-            "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/"
+            "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/"
         },
         {
             "rel": "describedby",
-            "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/metadata-catalog/emp/"
+            "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/metadata-catalog/emp/"
         },
         {
             "rel": "first",
-            "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/"
+            "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/"
         }
     ]
 }
