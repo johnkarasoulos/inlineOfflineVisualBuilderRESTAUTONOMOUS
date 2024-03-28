@@ -6,19 +6,19 @@
     "links": [
         {
             "rel": "self",
-            "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAC"
+            "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAC"
         },
         {
             "rel": "edit",
-            "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAC"
+            "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/AAAUFuAAAAAAJ7HAAC"
         },
         {
             "rel": "describedby",
-            "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/metadata-catalog/emp/item"
+            "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/metadata-catalog/emp/item"
         },
         {
             "rel": "collection",
-            "href": "https://g9051959400a6d8-sandbox.adb.eu-frankfurt-1.oraclecloudapps.com/ords/admin/emp/"
+            "href": "https://xxxxxxxxxxxxxxxxxxx.adb.xxxxxxxxx.oraclecloudapps.com/ords/admin/emp/"
         }
     ]
 }
