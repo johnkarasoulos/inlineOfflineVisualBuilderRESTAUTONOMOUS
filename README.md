@@ -14,6 +14,8 @@ Perform transactions on the downloaded content where connectivity isn’t availa
 Provide conflict resolution when the offline data can’t merge with the server. If the salesperson’s request exceeds the amount of available inventory, the application can configure a message asking the salesperson to cancel the order or place the item on back order.
 
 Oracle maintains the persistence toolkit as an open-source project
+Oracle Visual Builder Documentation: https://docs.oracle.com/en/cloud/paas/app-builder-cloud/visual-builder-developer/add-offline-capabilities-your-application.html#GUID-B32A874D-A560-4244-90BD-A8DB75847EBB 
+
 Github:  https://github.com/oracle/offline-persistence-toolkit 
 
 API documentation : https://oracle.github.io/offline-persistence-toolkit/index.html 
@@ -213,3 +215,7 @@ Add the following entries to include the toolkit classes that you'll use. More i
     return AppModule;
   })
 ```
+
+## Walkthough Video 
+You can also watch the following walk through video , that demonstrating how to implement that kind of functionality. 
+https://youtu.be/6HR4BEKjs9o?si=egvaP9qoo-RH08gG 
