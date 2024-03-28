@@ -15,6 +15,7 @@ Provide conflict resolution when the offline data can’t merge with the server.
 
 Oracle maintains the persistence toolkit as an open-source project
 Github:  https://github.com/oracle/offline-persistence-toolkit 
+
 API documentation : https://oracle.github.io/offline-persistence-toolkit/index.html 
 
 
